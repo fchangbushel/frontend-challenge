@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  font-size: 120%;
+}
+
+.search-container {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 0px;
+  background: #fff;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 0px;
+  background: #fff;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
