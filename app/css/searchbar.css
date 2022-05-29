@@ -1,5 +1,6 @@
 * {
   font-size: 1rem;
+  background-color: #fdf4ff;
 }
 
 .navigation-bar {
@@ -7,6 +8,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 14px 36px 14px 36px;
+  margin: -1% -1% 1% -1%;
+  background-color: #f5ebff;
 }
 
 .search-title {
@@ -37,6 +40,11 @@ input {
   border: none;
   outline: none;
   font-size: 16px;
+}
+
+.pokedex-collectonView {
+  margin: -1% -1% 1% -1%;
+  height: fit-content;
 }
 
 ::placeholder {
