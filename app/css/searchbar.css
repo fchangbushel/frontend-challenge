@@ -19,6 +19,7 @@
   margin: 0px 0px 0px 16px;
   width: 61px;
   height: 40px;
+  background-color: #f5ebff;
 }
 
 .input-wrapper {
@@ -31,6 +32,7 @@
   border-radius: 0.2rem;
   color: black;
   width: 100%;
+  background-color: white;
 }
 
 input {
@@ -40,11 +42,49 @@ input {
   border: none;
   outline: none;
   font-size: 16px;
+  background-color: white;
 }
 
 .pokedex-collectonView {
+  background-color: white;
   margin: -1% -1% 1% -1%;
   height: fit-content;
+}
+
+.card {
+  background-color: white;
+  list-style: none;
+  padding: 40px;
+  color: #181222;
+  text-align: center;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.card-types {
+  font-weight: lighter;
+  color: #181222;
+  margin-top: 5px;
+  background-color: white;
+}
+
+.card-image {
+  height: 180px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#pokedex {
+  padding-inline-start: 72;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 16px;
 }
 
 ::placeholder {
